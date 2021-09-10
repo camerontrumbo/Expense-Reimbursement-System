@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="/styles/employeedash.css" rel="stylesheet">
+    <title>Employee</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            Employee Dashboard
+          </a>
+          <button class="btn btn-outline-info" id="logoutbtn">Log Out</button>
+        </div>
+    </nav>
+    
+    <div class="title"><h1>PENDING</h1><hr></div>
+    <div class="table-container" id="table-container"></div><br><br><br><br>
+    
+    <div class="title"><h1>RESOLVED</h1><hr></div>
+    <div class="resolved-table-container" id="resolved-table-container"></div>
+
+    <div class="create-form" id="form-container">
+        <form id="createReimb-Form" enctype="multipart/form-data">
+            <div class="amount"><input type="text" id="amount" placeholder="Amount"></div>
+            <div class="desc"><input type="text" id="Descriptoin" placeholder="Description"></div>
+            <div class="type"><select id="type">
+                <option value="1">Food</option>
+                <option value="2">Lodging</option>
+                <option value="3">Travel</option>
+                <option value="4">Other</option>
+            </select></div>
+            <div class="btn-sub"><button class="btn btn-success">Submit</button></div><br>
+            <div class="minus-form"><button class="btn btn-danger">-</button></div>
+        </form>
+    </div>
+    <div class="open-btn"><button class="btn btn-success" id="openbtn">+</button></div>
+
+    <script src="/scripts/employeedash.js"></script>
+</body>
+</html>

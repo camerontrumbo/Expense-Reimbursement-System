@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="/styles/register.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            Reimbursement App
+          </a>
+        </div>
+      </nav><br><br><br>
+      <h3 id="msg-elem" class="msg-elem"></h3>
+      <div class="container">
+        <div class="title"><h2>Register</h2></div>
+        <form id="register-form">
+            <div class="username"><input type="text" id="username" placeholder="Username"></div>
+            <div class="password"><input type="password" id="password" placeholder="Password"></div>
+            <div class="first-name"><input type="text" id="first-name" placeholder="First Name"></div>
+            <div class="last-name"><input type="text" id="last-name" placeholder="Last name"></div>
+            <div class="user-email"><input type="email" id="user-email" placeholder="Email"></div>
+            <div class="roleId"><select id="roleId">
+              <option value="1">Employee</option>
+              <option value="2">Manager</option>
+          </select></div>
+            <div class="btn-reg"><button class="btn btn-info">Register</button></div>
+        </form>
+      </div>
+
+    <script src="/scripts/register.js"></script>
+</body>
+</html>

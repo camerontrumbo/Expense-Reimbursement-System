@@ -1,0 +1,72 @@
+.table-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: min-content;
+    box-shadow: 2px 2px 8px rgb(19, 19, 19);
+}
+
+.resolved-table-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: min-content;
+    box-shadow: 2px 2px 8px rgb(19, 19, 19);
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.create-form {
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 100px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 2px 2px 8px rgb(19, 19, 19);
+    opacity: 90%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.open-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.minus-form {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.amount {
+    padding: 2px;
+}
+
+.desc {
+    padding: 2px;
+}
+
+.img {
+    padding: 2px;
+}
+
+.type {
+    padding: 2px;
+}
+
+.btn-sub {
+    padding: 2px;
+}

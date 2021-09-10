@@ -1,0 +1,52 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 100px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 2px 2px 8px rgb(19, 19, 19);
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+.msg-elem {
+    display: none;
+    text-align: center;
+    color: rgb(216, 103, 103);
+}
+
+.title {
+    text-align: center;
+}
+
+.username {
+    padding: 2px;
+}
+
+.password {
+    padding: 2px;
+}
+
+.first-name {
+    padding: 2px;
+}
+
+.last-name {
+    padding: 2px;
+}
+
+.user-email {
+    padding: 2px;
+}
+
+.roleId {
+    padding: 2px;
+}
+
+.btn-reg {
+    padding: 2px;
+}
+
+body {
+    background-image: url("/img/laptop-336373_1920.jpg");
+}

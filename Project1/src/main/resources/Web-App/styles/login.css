@@ -1,0 +1,46 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 100px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 2px 2px 8px rgb(19, 19, 19);
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+.main-title {
+    margin: 20px;
+    text-align: center;
+}
+
+.login-message {
+    display: none;
+    text-align: center;
+    color: rgb(216, 103, 103);
+}
+
+.username {
+    padding: 3px;
+}
+
+.password {
+    padding: 3px;
+}
+
+.btn {
+    padding: 3px;
+}
+
+.log-txt {
+    text-align: center;
+}
+
+body {
+    background-image: url("/img/laptop-336373_1920.jpg");
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
